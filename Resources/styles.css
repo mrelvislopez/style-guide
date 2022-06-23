@@ -266,31 +266,36 @@ figure{
         padding:10px;
     }
     #navright{
+        display: grid;
+        grid-template-columns: 200px 200px;
         padding-bottom: 25px;
+        column-gap: 10px;
+        row-gap: 1em;
+        line-height: 38px;
     }
     .btn{
-        font-size: 15px;
-        width: 17px;
-        border-left:6px solid white;
+        border-right: none;
+        font-size: 20px;        
     }
     .btn:hover{
         border-left-width: 6px;
     }
     .btn1{
-        background-color: #FDD42D;
-        color: #001228;
+        color: #fff;
+        border-left:6px solid #FDD42D;
     }
     .btn2{
-        background-color: #FF451A;
-        color: #001228;
+        color: #fff;
+        border-left:6px solid #FF451A;
     }
     .btn3{
-        background-color: #00CCFF;
-        color: #001228;
+        color: #fff;
+        border-left:6px solid #00CCFF;
     }
     .btn4{
-        background-color: #6FD692;
-        color: #001228;
+        color: #fff;
+        border-left:6px solid #6FD692;
+
     }
 /* Typography */
 .panel{
