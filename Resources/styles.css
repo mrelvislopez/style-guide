@@ -246,57 +246,56 @@ figure{
 }
 
 @media only screen and (max-width: 640px) {
-    header{
-        height: auto;
-        padding: 10px;
-        display: block;
-        border-bottom: 3px solid #00CCFF;
-    }
-    #sitename{
-       display:block;   
-    }
+header{
+    height: auto;
+    padding: 10px;
+    display: block;
+    border-bottom: 3px solid #00CCFF;
+}
+#sitename{
+    display:block;   
+}
 
-    #sitename h1{
-        margin-top: -10px;
-    }
-    #bigh3{
-        display:none;
-    }
-    #smallh3{
-        padding:10px;
-    }
-    #navright{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding-bottom: 25px;
-        column-gap: 10px;
-        row-gap: 1em;
-        line-height: 38px;
-    }
-    .btn{
-        border-right: none;
-        font-size: 20px;        
-    }
-    .btn:hover{
-        border-left-width: 6px;
-    }
-    .btn1{
-        color: #fff;
-        border-left:6px solid #FDD42D;
-    }
-    .btn2{
-        color: #fff;
-        border-left:6px solid #FF451A;
-    }
-    .btn3{
-        color: #fff;
-        border-left:6px solid #00CCFF;
-    }
-    .btn4{
-        color: #fff;
-        border-left:6px solid #6FD692;
-
-    }
+#sitename h1{
+     margin-top: -10px;
+}
+#bigh3{
+    display:none;
+}
+#smallh3{
+    padding:10px;
+}
+#navright{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 25px;
+    column-gap: 10px;
+    row-gap: 1em;
+    line-height: 38px;
+}
+.btn{
+    border-right: none;
+    font-size: 20px;        
+}
+.btn:hover{
+    border-left-width: 6px;
+}
+.btn1{
+    color: #fff;
+    border-left:6px solid #FDD42D;
+}
+.btn2{
+    color: #fff;
+    border-left:6px solid #FF451A;
+}
+.btn3{
+    color: #fff;
+    border-left:6px solid #00CCFF;
+}
+.btn4{
+    color: #fff;
+    border-left:6px solid #6FD692;
+}
 /* Typography */
 .panel{
     margin: 10px;
@@ -316,7 +315,7 @@ figure{
 }
 /* Banners */
 #bannerlight{
-    padding: 20px;
+    padding: 60px 20px;
 }
 .content{
     width: auto;
@@ -333,7 +332,7 @@ figure{
     border-left-width: 6px;
 }
 #bannerdark{
-    padding: 20px;
+    padding: 60px 20px;
 }
 .darkh3{
     color: #6FD692;
@@ -349,7 +348,7 @@ figure{
 .buttons{
     background-color: #00CCFF;
     color: #001228;
-    padding: 5px 70px;  
+    padding: 5px 25px;  
     border-radius: 10px 10px 0 0;  
 }
 .colorsbtn{
