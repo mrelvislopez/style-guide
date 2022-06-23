@@ -248,7 +248,7 @@ figure{
 @media only screen and (max-width: 640px) {
     header{
         height: auto;
-        padding: 20px;
+        padding: 10px;
         display: block;
         border-bottom: 3px solid #00CCFF;
     }
@@ -267,7 +267,7 @@ figure{
     }
     #navright{
         display: grid;
-        grid-template-columns: 200px 200px;
+        grid-template-columns: 1fr 1fr;
         padding-bottom: 25px;
         column-gap: 10px;
         row-gap: 1em;
@@ -299,7 +299,7 @@ figure{
     }
 /* Typography */
 .panel{
-    margin: 20px;
+    margin: 10px;
 }
 .type{
     padding: 5px 25px;
@@ -308,7 +308,7 @@ figure{
     line-height: 16px;
 }
 .panelbody{
-    padding: 25px;
+    padding: 10px;
     margin-top: 0;
 }
 .textheight{
@@ -316,7 +316,7 @@ figure{
 }
 /* Banners */
 #bannerlight{
-    padding: 50px;
+    padding: 20px;
 }
 .content{
     width: auto;
@@ -333,7 +333,7 @@ figure{
     border-left-width: 6px;
 }
 #bannerdark{
-    padding: 50px;
+    padding: 20px;
 }
 .darkh3{
     color: #6FD692;
