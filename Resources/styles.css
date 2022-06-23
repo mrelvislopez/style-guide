@@ -307,7 +307,7 @@ header{
     line-height: 16px;
 }
 .panelbody{
-    padding: 10px;
+    padding: 0px 25px 40px 25px;
     margin-top: 0;
 }
 .textheight{
