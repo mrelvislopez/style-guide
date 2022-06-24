@@ -45,6 +45,9 @@ a{
 }
 
 /* Header */
+#smallh3{
+    display:none;
+}
 
 header{
     background-color: #001228;
@@ -246,11 +249,15 @@ figure{
 }
 
 @media only screen and (max-width: 640px) {
+
 header{
     height: auto;
     padding: 10px;
     display: block;
     border-bottom: 3px solid #00CCFF;
+}
+#smallh3{
+    display:block;
 }
 #sitename{
     display:block;   
@@ -309,6 +316,7 @@ header{
 .panelbody{
     padding: 0px 25px 40px 25px;
     margin-top: 0;
+    background-color: white;
 }
 .textheight{
     line-height: 1em;
@@ -320,6 +328,7 @@ header{
 .content{
     width: auto;
     padding-bottom: 25px;
+  
 }
 .lighth3{
     color: #FDD42D;
